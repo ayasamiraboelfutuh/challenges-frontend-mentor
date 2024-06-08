@@ -1,0 +1,112 @@
+
+body{
+    font-family: "Outfit", sans-serif;
+    margin: 0;
+    font-size: 15px;
+    background-color: hsl(30, 54%, 90%);
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+
+.container{
+    /* margin-left:  auto ;
+    margin-right: auto;
+    margin-top: 5%; */
+   margin: auto;
+    width: 500px;
+    background-color: white;
+    height: 100%;
+    border-radius: 20px;
+    padding: 20px;
+ 
+}
+
+.container img{
+    display: block;
+    margin: auto;
+    padding-bottom: 0;
+    width: 500px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+}
+@media screen and (max-width:375px) {
+   
+
+     
+  
+  }
+p{
+    display: flex;
+    margin: auto;
+    /* width: 90%; */
+    height: 20;
+    align-items: center;
+}
+.preption{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 5px;
+    /* padding-inline-start: 40px; */
+    margin: auto;
+    width: 90;
+}
+ul li {
+    padding: 3px;
+    font-size: 15px;
+    font-size: 15px;
+}
+h4{
+    padding-inline-start: 20px;
+}
+ol li{
+    padding: 4px;
+}
+table{
+    width: 500px;
+    border-collapse: collapse;
+    padding-inline-start: 40px;
+}
+tr{
+    
+        border-bottom: 0.5px solid black;
+        
+}
+td{
+    height: 30px;
+    padding: 10px;
+    font-size: 14px;
+    vertical-align: bottom;
+
+}
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: hsl(14, 45%, 36%);
+    padding-inline-start: 20px;
+}
+span{
+    font-weight: bold;
+    font-family: "Outfit", sans-serif;
+  /* font-optical-sizing: auto; */
+  font-style: normal;
+  padding-left: 5px;
+
+}
+@media screen and (max-width:375px) {
+   
+
+    .container {
+      border-radius: 0;
+      margin: 0;
+      padding: 0; 
+    } 
+    img {
+        border-radius: 0;
+      }
+     
+  }
